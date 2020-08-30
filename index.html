@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tic-Tac-Toe Game by Granthali Jadhav</title>
+    <script src="js/tictactoe.js"></script>
+    <link rel="stylesheet" href="css/site.min.css" />
+  </head>
+  <body onload="startGame();">
+    <h1>Assignment 2:Tic-Tac-Toe Game</h1>
+    <h2>Granthali Jadhav (61) </h2>
+
+    <h3 id="message"></h3>
+
+    <table id="game_board">
+      <tr>
+        <td id="square1" onclick="fillSquare(this);"></td>
+        <td id="square2" onclick="fillSquare(this);"></td>
+        <td id="square3" onclick="fillSquare(this);"></td>
+      </tr>
+      <tr>
+        <td id="square4" onclick="fillSquare(this);"></td>
+        <td id="square5" onclick="fillSquare(this);"></td>
+        <td id="square6" onclick="fillSquare(this);"></td>
+      </tr>
+      <tr>
+        <td id="square7" onclick="fillSquare(this);"></td>
+        <td id="square8" onclick="fillSquare(this);"></td>
+        <td id="square9" onclick="fillSquare(this);"></td>
+      </tr>
+    </table>
+    <a href="javascript:startGame();">Play again</a>
+  </body>
+</html>

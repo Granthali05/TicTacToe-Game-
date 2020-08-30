@@ -1,0 +1,36 @@
+// @import url("https://fonts.googleapis.com/css?family=Architects+Daughter|Permanent+Marker");
+
+$marker_font: "Permanent Marker", cursive;
+$text_font: "Times new Roman", times, serif;
+
+body {
+  width: 500px;
+  margin: auto !important;
+  font: {
+    family: $text_font;
+  }
+}
+
+#game_board {
+  tr {
+    td {
+      text: {
+        align: center;
+      }
+      font: {
+        family: $marker_font;
+        size: 100px;
+      }
+      border: 0.01em solid black;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+a {
+  text: {
+    decoration: none;
+  }
+  color: black;
+}
